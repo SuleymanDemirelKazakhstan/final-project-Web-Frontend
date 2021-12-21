@@ -128,7 +128,7 @@ body {
     color: red;
 }
 .profile-promotion-system h1 {
-    padding: 9px 20px;
+    padding: 7px 15px;
 }
 .profile-search-system {
     cursor: pointer;
@@ -213,7 +213,7 @@ body {
 .script-system-of-product-watch p {
     margin-top: 10px;
     font-size: 13px;
-    color: #666666;
+    color: #ddd;
 }
 .watch-btn {
     cursor: pointer;
@@ -254,7 +254,7 @@ body {
 .script-system-of-product-addToFavorites p {
     margin-top: 10px;
     font-size: 13px;
-    color: #666666;
+    color: #ddd;
 }
 .like-btn {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(135deg) brightness(102%) contrast(102%);
@@ -266,7 +266,7 @@ body {
 }
 .script-system-of-product-liked p {
     font-size: 13px;
-    color: #666666;
+    color: #ddd;
     margin-top: 10px;
 }
 .script-system-of-product-dislike {
@@ -274,7 +274,7 @@ body {
 }
 .script-system-of-product-dislike p {
     font-size: 13px;
-    color: #666666;
+    color: #ddd;
     margin-top: 10px;
 }
 .dislike-btn {
@@ -306,33 +306,254 @@ body {
 .main-container-about-product {
     position: relative;
     z-index: 999;
-    margin-top: -700px;
+    margin-top: -600px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main-content-top5-system {
+    margin-top: 100px;
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+.top5-system-main-text-container {
+    width: 100%;
+    padding: 0 0 50px 0;
+    align-items: center;
+}
+.text-container-zagolovok {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.text-container-zagolovok h5 {
+    margin-left: 7px;
+}
+.text-container-zagolovok h5:hover {
+    color: #F60;
+    cursor: pointer;
+}
+.text-container-zagolovok p {
+    margin-left: 2px;
+}
+.text-container-slider-block {
+    width: 100%;
+    display: flex;
+}
+.slider-block-main-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-blocks {
+    padding: 0 15px 0 0;
+}
+.top-5-main-container-block {
+    width: 100%;
+    display: flex;
+}
+.top5-system-image-block {
+    width: 40%
+}
+.top5-system-image-block img {
+    width: 350px;
+}
+.top5-system-text-block {
+    width: 60%;
+}
+.text-block-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.text-block-main-container li {
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #FFF;
+}
+.slider-block-main-container h2:hover {
+    color: #717171;
+    cursor: pointer;
+}
+.text-block-main-container li:hover {
+    color: #f60;
+    cursor: pointer;
+}
+.main-container-about-page-of-product {
+    width: 67%;
+}
+.text-container-about-a-product {
+    display: flex;
+    align-items: center;
+    color: #666666;
+    margin: 25px 0;
+}
+.screen-resolution-system {
+    border: 1px solid #666666;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.film-extension-system {
+    margin-left: 15px;
+    font-size: 15px;
+}
+.text-container-main-information-about-of-production {
+    margin: 0 0 25px 0;
+    font-size: 14px;
+    line-height: 1.56;
+    font-family: PF DinDisplay,Helvetica,Arial;
+}
+.social-networks {
+    display: flex;
+    align-items: center;
+}
+.social-networks li {
+    padding: 0 20px 0 0;
+}
+.social-networks i {
+    border: 1px solid #666666;
+    padding: 8px 15px 0 15px;
+}
+.social-networks a:hover svg {
+    fill: #FFF;
+}
+.social-networks a:hover i {
+    background-color: #F60;
+}
+.hr {
+    border: 0.2px solid #666666;
+    width: 100%;
+    margin: 50px 0;
+}
+.main-content-client-watch-system {
+    margin-top: 50px;
+}
+.availableOnDevicesColumnTwo {
+    display: flex;
+}
+.availableOnDevicesColumnTwo ul {
+    padding: 0 30px 0 0;
+}
+.technical-device {
+    align-items: center;
+    display: flex;
+    padding: 15px 0 0 0;
+}
+.technical-device p {
+    font-size: 13px;
+    color: #666666;
+    padding-left: 10px;
+}
+.technical-device svg:hover {
+    fill: #F60;
+}
+.client-watch-system-different-settings {
+    display: flex;
+    justify-content: space-between;
+}
+.client-watch-system-different-settings h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+.available-on-devices {
+    width: 42%;
+}
+.available-on-devices h6 {
+    font-size: 15px;
+    color: #666666;
+    padding-top: 15px;
+}
+.translation {
+    width: 20%;
+}
+.translation h3 {
+    line-height: 2;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 15px;
+}
+.subtitles {
+    width: 30%;
+}
+.subtitles h3 {
+    line-height: 2;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 15px;
+}
+.about-page-of-product-main-container-block {
+    justify-content: space-between;
+    display: flex;
+}
+.about-page-of-product-main-container-block img {
+    width: 60px;
+    height: 60px;
+}
+.first-column-of-persons-main-container {
+    display: flex;
+    flex-direction: column;
+}
+.first-column-of-persons-main-container li {
+    padding: 0 0 15px 0;
+}
+.second-column-of-persons-main-container {
+    display: flex;
+    flex-direction: column;
+}
+.second-column-of-persons-main-container li {
+    padding: 0 0 15px 0;
+}
+.third-column-of-persons-main-container {
+    display: flex;
+    flex-direction: column;
+}
+.third-column-of-persons-main-container li {
+    padding: 0 0 15px 0;
+}
+.persons-main-container-table-block {
+    display: flex;
+}
+.table-block-text-content {
+    margin-left: 15px;
+}
+.table-block-text-content h2 {
+    font-size: 14px;
+}
+.table-block-text-content p {
+    margin-top: 7px;
+    font-size: 12px;
+    color: #666666;
+}
+.about-page-of-product-images-container-block {
+    display: flex;
+}
+.about-page-of-product-images-container-block img {
+    cursor: pointer;
+}
+.about-page-of-product-images-container-block img:hover {
+    opacity: 0.5;
+}
+.images-container-first-block {
+    width: 100%;
+}
+.images-container-first-block img {
+    width: 400px;
+    height: 270px;
+}
+.images-container-second-block {
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.images-container-second-block img {
+    width: 220px;
+    height: 125px;
+}
+.images-container-second-block-second-image {
+    margin-top: 15px;
+}
 .footer{
     background-color: #ddd;
     font-family: PF DinDisplay,Helvetica,Arial;

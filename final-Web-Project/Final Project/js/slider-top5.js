@@ -9,7 +9,7 @@ function openPage(pageName, elmnt, color) {
     for(i = 0; i < tablinks.length; i++) {
         tablinks[i].style.color = "black";
     }
-    document.getElementById(pageName).style.display = "flex";
+    document.getElementById(pageName).style.display = "block";
     elmnt.style.color = color;
 }
 document.getElementById("defaultOpen").click();
