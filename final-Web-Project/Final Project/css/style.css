@@ -94,6 +94,18 @@ body {
 .menu-content-list-categories h1:hover {
     color: red;
 }
+.menu-content-list-profile-different-login {
+    width: 8%;
+    display: none;
+}
+.menu-content-list-profile-different-login li {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.menu-content-list-profile-different-login h1 {
+    display: inline-block;
+}
 .categories-main-content {
     display: flex;
 }
@@ -123,7 +135,7 @@ body {
     border: 1px solid #FFF;
     border-radius: 5px;
 }
-.profile-promotion-system:hover {
+.profile-promotion-system:hover, .profile-promotion-system a:hover {
     border: 1px solid red;
     color: red;
 }
@@ -363,18 +375,18 @@ body {
     font-size: 24px;
     padding: 0px 0px 20px;
 }
-.footer-apps-img img{
+.footer-apps-img img {
     width: 124px;
     height: 40px;
 }
-.footer-apps-img li{
+.footer-apps-img li {
     padding: 0px 20px 0px 0px;
 }
-.footer-users-and-partners{
+.footer-users-and-partners {
     margin: 0 0px 37px;
     justify-content: space-between;
 }
-.footer-On-devices{
+.footer-On-devices {
     margin: 0 0px 37px 20px; 
 }
 .footer-User-support{
@@ -396,4 +408,167 @@ body {
 }
 .footer {
     padding: 75px 0;
+}
+
+
+/* =========================     ========================= */
+/* ========================= END ========================= */
+/* =========================     ========================= */
+
+@media only screen and (max-width: 1160px) {
+
+    .wrapper-content {
+        max-width: 1100px;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+    .main-content {
+        max-width: 950px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .menu-main-content {
+        font-size: 13px;
+    }
+    .fivth-image-block {
+        display: none;
+    }
+    .menu-content-list-categories {
+        width: 90%;
+        padding: 0 20px;
+    }
+    .menu-content-list-profile {
+        display: none;
+    }
+    .menu-content-list-profile-different-login {
+        display: block;
+        width: 10%;
+    }
+    .categories-main-content {
+        width: 100%;
+    }
+    .categories-main-content li {
+        padding: 0 15px;
+    }
+    .menu-content-list-logo {
+        width: 10%;
+    }
+    .menu-content-list-logo img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 956px) {
+
+    .wrapper-content {
+        max-width: 1050px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+    .main-content {
+        max-width: 900px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .fivth-image-block {
+        display: none;
+    }
+    .menu-content-list-profile {
+        display: none;
+    }
+    .main-content-subscribe-system {
+        padding: 15px 0;
+    }
+    .subscribe-system-content {
+        width: 100%;
+    }
+    .subscribe-system-content img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .wrapper-content {
+        max-width: 950px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        max-width: 780px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .subscribe-system-content img {
+        width: 160px;
+    }
+
+}
+
+@media only screen and (max-width: 815px) {
+
+    .main-content {
+        max-width: 815px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+    .fourth-image-block {
+        display: none;
+    }
+
+    .section {
+        width: 100%;
+        max-width: 815px;
+        min-width: 815px;
+    }
+    
+    .abs {
+        width: 100%;
+    }
+
+    .prev {
+        top: 152px;
+    }
+
+    .next {
+        left: 590px;
+        right: 0;
+        top: 152px;
+    }
+
+    .prev, .next {
+        background: none;
+    }
+
+    .prev:hover, .next:hover {
+        background: none;
+    }
+
+    .devices-front-text-block h1 {
+        font-size: 24px;
+    }
+
+    .devices-front-text-block {
+        font-size: 12px;
+    }
+
+    .devices-system-tablet-vesions img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .footer {
+        width: 100%;
+        max-width: 815px;
+        min-width: 815px;
+    }
+
+    .footer-apps-img img {
+        width: 100px;
+        height: 30px;
+    }
+
 }
