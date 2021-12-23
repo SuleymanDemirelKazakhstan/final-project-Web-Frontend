@@ -148,6 +148,9 @@ input::-webkit-inner-spin-button {
 .profile-search-system svg {
     transition: all 0.3s ease-in-out;
 }
+.profile-promotion-system-different {
+    display: none;
+}
 .profile-search-system svg:hover {
     fill: red;
 }
@@ -273,4 +276,3 @@ span{
 #register{
     left: 450px;
 }
-

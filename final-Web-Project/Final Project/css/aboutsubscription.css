@@ -149,12 +149,25 @@ body {
 .profile-login-system h1:hover {
     color: red;
 }
+.menu-content-list-profile-different-login {
+    width: 8%;
+    display: none;
+}
+.menu-content-list-profile-different-login li {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.menu-content-list-profile-different-login h1 {
+    display: inline-block;
+}
+
 /*---------------------------------------------------------------------------------------------*/
+
 .page-promo {
     position: relative;
     z-index: 0;
     overflow: hidden;
-    
     padding-top: 50px;
     color: #fff;
     background: url(https://s4.vcdn.biz/static/109286301/topblock_new.jpg) no-repeat 50%;
@@ -164,9 +177,10 @@ body {
     background-color: #f60;
     border: #f60;
 }
-.presentation-text-upper{
+.presentation-text-upper {
+    width: 80%;
     padding-top: 114px;
-    margin-left: 289px;
+    margin-left: 189px;
     padding-right: 60%;
 }
 .presentation-text{
@@ -355,6 +369,7 @@ tr {
 }
 
 /*--------------------------------------footer-----------------------------------------------*/
+
 .footer{
     background-color: #ddd;
     font-family: PF DinDisplay,Helvetica,Arial;
@@ -423,4 +438,62 @@ tr {
 }
 .footer {
     padding: 75px 0;
+}
+
+/* =========================     ========================= */
+/* ========================= END ========================= */
+/* =========================     ========================= */
+
+@media only screen and (max-width: 1160px) {
+
+    .wrapper-content {
+        max-width: 1100px;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+    .main-content {
+        max-width: 950px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .menu-main-content {
+        font-size: 13px;
+    }
+    .menu-content-list-categories {
+        width: 90%;
+        padding: 0 20px;
+    }
+    .menu-content-list-profile-different-login {
+        display: block;
+        width: 10%;
+    }
+    .profile-search-system, .profile-login-system {
+        display: none;
+    }
+    .profile-promotion-system h1 {
+        padding: 5px 15px;
+    }
+    .profile-promotion-system {
+        margin-left: 60px;
+    }
+    .categories-main-content {
+        width: 100%;
+    }
+    .categories-main-content li {
+        padding: 0 15px;
+    }
+    .menu-content-list-logo {
+        width: 10%;
+    }
+    .menu-content-list-logo img {
+        width: 100%;
+    }
+    .page-promo {
+        width: 1160px;
+        max-width: 1160px;
+    }
+    .advantages, .table-subscription, .footer {
+        width: 1160px;
+        max-width: 1160px;
+    }
 }
