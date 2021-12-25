@@ -60,7 +60,7 @@ input::-webkit-inner-spin-button {
     position: fixed;
     width: 100%;
     color: #FFF;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 144, 0);
 }
 .header a {
     color: #FFF;
@@ -98,7 +98,7 @@ input::-webkit-inner-spin-button {
     transition: all 0.3s ease-in-out;
 }
 .menu-content-list-categories h1:hover {
-    color: red;
+    color: black;
 }
 .categories-main-content {
     display: flex;
@@ -135,8 +135,8 @@ input::-webkit-inner-spin-button {
     font-size: 12px;
 }
 .profile-promotion-system:hover {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid black;
+    color: black;
 }
 .profile-promotion-system h1 {
     padding: 9px 20px;
@@ -152,7 +152,7 @@ input::-webkit-inner-spin-button {
     display: none;
 }
 .profile-search-system svg:hover {
-    fill: red;
+    fill: black;
 }
 .profile-login-system {
     margin: auto;
@@ -161,7 +161,7 @@ input::-webkit-inner-spin-button {
     transition: all 0.3s ease-in-out;
 }
 .profile-login-system h1:hover {
-    color: red;
+    color: black;
 }
 
 /* LOGIN */

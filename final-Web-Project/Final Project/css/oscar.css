@@ -210,6 +210,9 @@ body {
     border: 1px solid #717171;
     margin: 0 0 25px 0;
 }
+.actors-block-grid-container-main {
+    display: grid;
+}
 .watching-a-cinema-background-procentage-block {
     width: 70%;
     background-color: #ddd;
@@ -364,6 +367,11 @@ body {
 }
 .main-rating-column-view:hover {
     filter: invert(27%) sepia(76%) saturate(3046%) hue-rotate(134deg) brightness(98%) contrast(101%);
+}
+.main-information-block-image-different img {
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
 }
 
 /* ================================= MAIN - SECTION - END ================================= */
